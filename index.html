@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أدوات الذكاء الاصطناعي</title>
+
+<style>
+    body {
+        font-family: 'Tahoma', sans-serif;
+        direction: rtl;
+        margin: 0;
+        background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+        color: #fff;
+    }
+
+    header {
+        text-align: center;
+        padding: 30px;
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 40px;
+        color: #00eaff;
+    }
+
+    header h3 {
+        margin-top: 10px;
+        color: #ccc;
+    }
+
+    .about {
+        margin: 20px;
+        padding: 20px;
+        background: rgba(255,255,255,0.08);
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        animation: fadeInUp 1s ease;
+    }
+
+    .about h2 {
+        color: #00eaff;
+        text-align: center;
+    }
+
+    .about p {
+        line-height: 1.8;
+        color: #ddd;
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .tool {
+        background: rgba(255,255,255,0.08);
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        transition: 0.4s;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        animation: fadeInUp 1s ease;
+    }
+
+    .tool:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .tool h2 {
+        color: #00eaff;
+    }
+
+    .tool p {
+        line-height: 1.6;
+        color: #ddd;
+    }
+
+    img {
+        width: 120px;
+        margin: 15px auto;
+        display: block;
+        transition: 0.4s;
+    }
+
+    .tool:hover img {
+        transform: rotate(5deg) scale(1.1);
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: #00eaff;
+        color: #000;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background: #00bcd4;
+        transform: scale(1.05);
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: rgba(0,0,0,0.5);
+        margin-top: 20px;
+        color: #ccc;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>أدوات الذكاء الاصطناعي</h1>
+    <h3>المجموعة: 6</h3>
+</header>
+
+<!-- تعريف المشروع -->
+<div class="about">
+    <h2>عن المشروع</h2>
+    <p>
+        هذا المشروع مقدم من قبل المجموعة رقم 6، ويهدف إلى التعريف بأهم أدوات الذكاء الاصطناعي الحديثة
+        التي تساعد المستخدمين في مجالات متعددة مثل التعلم، البرمجة، الكتابة، وتحليل البيانات.
+        تم اختيار هذه الأدوات نظرًا لأهميتها وانتشارها في العصر الحالي.
+    </p>
+</div>
+
+<div class="container">
+
+    <div class="tool">
+        <h2>ChatGPT</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
+        <p>
+            يعتبر ChatGPT من أشهر أدوات الذكاء الاصطناعي، يساعد في الإجابة على الأسئلة،
+            كتابة المحتوى، البرمجة، والتعلم بسرعة وسهولة.
+        </p>
+        <a href="https://chat.openai.com" target="_blank">زيارة الموقع</a>
+    </div>
+
+    <div class="tool">
+        <h2>Gemini</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google_Gemini_logo.svg">
+        <p>
+            Gemini من Google، يتميز بفهم النصوص والصور ومساعدة المستخدم في البحث
+            والإبداع وصناعة الأفكار.
+        </p>
+        <a href="https://gemini.google.com" target="_blank">زيارة الموقع</a>
+    </div>
+
+    <div class="tool">
+        <h2>Claude</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Anthropic_logo.svg">
+        <p>
+            Claude من شركة Anthropic، يركز على الأمان والذكاء في المحادثة
+            ويستخدم في الكتابة والتحليل.
+        </p>
+        <a href="https://claude.ai" target="_blank">زيارة الموقع</a>
+    </div>
+
+</div>
+
+<footer>
+    © جميع الحقوق محفوظة - المجموعة 6
+</footer>
+
+</body>
+</html>
